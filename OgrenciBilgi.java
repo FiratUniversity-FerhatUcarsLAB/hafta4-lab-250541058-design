@@ -39,6 +39,7 @@ public class OgrenciBilgi {
 
         System.out.print("Öğrenci GPA: ");
         double gpa = input.nextDouble();
+        System.out.printf("GPA: %.2f", gpa);
         
         input.close();
         
