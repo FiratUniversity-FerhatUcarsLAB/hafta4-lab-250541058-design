@@ -1,7 +1,7 @@
 /*
- * Ad Soyad: [ADINIZI BURAYA YAZIN]
- * Ogrenci No: [OGRENCI NUMARANIZI BURAYA YAZIN]
- * Tarih: [TARIHI BURAYA YAZIN]
+ * Ad Soyad: [Burçin AYYILDIZ]
+ * Ogrenci No: [250541058]
+ * Tarih: [05.11.2025]
  * Aciklama: Gorev 1 - Ogrenci Bilgi Sistemi
  * 
  * Bu program kullanicidan ogrenci bilgilerini alir ve
@@ -13,38 +13,45 @@ import java.util.Scanner;
 
 public class OgrenciBilgi {
     public static void main(String[] args) {
-        // Scanner objesi olusturun
-        
-        
-        // Degisken tanimlamalari
-        // String ad, soyad;
-        // int ogrenciNo, yas;
-        // double gpa;
+       
+        Scanner input = new Scanner (System.in) ;
+        // Ad Soyad = Burçin AYYILDIZ
+        // Öğrenci no = 250541058 
+        // YAş = 19
+        // GPA = 3.50
         
         
         // Kullanicidan bilgileri alin
         System.out.println("=== OGRENCI BILGI SISTEMI ===");
         System.out.println();
         
-        // Ad
+        System.out.print("Öğrenci adı soyadı : ");
+        String AdSoyad = input.nextLine();
         
         
-        // Soyad
+        System.out.print("Öğrenci numarası : ");
+        int OgrenciNumarasi = input.nextInt();
+
+    
+        System.out.print("Öğrenci yaşı : ");
+        int OgrenciYasi = input.nextInt();
+
+
+        System.out.print("Öğrenci GPA: ");
+        double gpa = input.nextDouble();
         
+        input.close();
         
-        // Ogrenci No
-        
-        
-        // Yas
-        
-        
-        // GPA
-        
-        
-        // Bilgileri ekrana yazdirin
         System.out.println("\n=== OGRENCI BILGI SISTEMI ===");
+
+      
+
+    }
+}
         
-        // COZUMUNUZU BURAYA YAZIN
+        // scanner kullanarak kullanıcıdan bilgileri alarak öğrenci bilgi sistemi oluşturdum. gpa değerini alırken double kullandım. yaş ve öğrenci no bilgilerini 
+        //alırken int veri tipini kullandım. ad ve soyad yazı verisi olduğu için string veri tipini kullandım. 
+
         
         
         
@@ -56,5 +63,4 @@ public class OgrenciBilgi {
         
         // Scanner'i kapatin (önemli pratik)
         
-    }
-}
+   
